@@ -26,4 +26,4 @@ def generate_keys_addresses_and_percentage(start, end):
 
             # Write to file: index, private key in hex, percentage, address
             file.write(f"{i}, {private_key_hex}, {address}, {percentage:.6f}%\n")
-1180591620717411303424, 1461501637330902918203684832716283019655932542975)
+1180591620717411303424, 1461501637330902918203684832716283019655932542975}
