@@ -7,7 +7,7 @@ def generate_keys_addresses_and_percentage(start, end):
         for i in range(start, end + 1):
             min_range = 2 ** (i - 1)
             max_range = 2 ** i - 1
-            private_key = random.randint(min_range, max_range)
+            private_key = random.randint(1180591620717411303424, max_range)
             private_key_hex = hex(private_key)[2:]  # Convert to hexadecimal and remove '0x'
 
             # Convert the hex private key back to integer before encoding to WIF
